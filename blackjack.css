@@ -67,3 +67,25 @@ body{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
+
+#reset  {
+  width: 100px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid #9D2235;
+  color: #FFA300;
+  background-color: #006272;
+
+}
+
+#reset:hover  {
+  width: 100px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid #9D2235;
+  color: #FFA300;
+  background-color: #006272;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

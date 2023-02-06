@@ -38,6 +38,8 @@ function shuffleDeck() {
   console.log(deck);
 }
 
+
+
 function startGame()
 {
   hidden = deck.pop();
@@ -69,6 +71,7 @@ function startGame()
   console.log(yourSum);
   document.getElementById("hit").addEventListener("click", hit);
   document.getElementById("stay").addEventListener("click", stay);
+  document.getElementById("reset").addEventListener("click", reset);
 }
 
 function hit()
@@ -89,6 +92,12 @@ function hit()
   {
     canHit = false;
   }
+}
+
+function reset()
+{
+
+  location.reload();
 }
 
 function stay()
