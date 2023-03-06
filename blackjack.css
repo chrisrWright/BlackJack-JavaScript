@@ -1,6 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 #dealer-cards img  {
@@ -15,6 +16,14 @@ body{
   margin: 1px;
 }
 
+
+#darkmode  {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  border: 2px solid #FFFFFF;
+  color: #FFA300;
+}
 
 
 
@@ -51,7 +60,7 @@ body{
   color: #FFA300;
   background-color: #006272;
   transition-duration: 0.4s;
- 
+
 
 }
 

@@ -69,9 +69,15 @@ function startGame()
   }
 
   console.log(yourSum);
+  document.getElementById("darkmode").addEventListener("click", darkmode);
   document.getElementById("hit").addEventListener("click", hit);
   document.getElementById("stay").addEventListener("click", stay);
   document.getElementById("reset").addEventListener("click", reset);
+}
+
+function darkmode()
+{
+  
 }
 
 function hit()
